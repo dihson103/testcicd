@@ -10,11 +10,4 @@ pipeline {
         }
         // Add more stages as needed
     }
-    
-    // Add post-build actions or notifications
-    post {
-        always {
-            // Clean up workspace or perform other actions
-        }
-    }
 }
